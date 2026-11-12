@@ -1,0 +1,33 @@
+{
+  "slug": "saaba-wedding-company-chirayinkeezhu",
+  "name": "Saaba Wedding Company",
+  "shortName": "Saaba",
+  "descriptor": "Event Management",
+  "address": "PRH2+QXG, Chirayinkeezhu, Keralam 695611",
+  "area": "Chirayinkeezhu",
+  "city": "Chirayinkeezhu",
+  "district": "Thiruvananthapuram",
+  "region": "Kerala",
+  "postalCode": "695611",
+  "geo": {
+    "lat": 8.729448699999999,
+    "lng": 76.8025225
+  },
+  "mapsLink": "https://maps.google.com/?cid=78940005619347110",
+  "phone": "+91 98469 28238",
+  "whatsapp": "919846928238",
+  "hours": "Open 24 hours · all days",
+  "opens": "00:00",
+  "closes": "23:59",
+  "rating": 5,
+  "reviewCount": 3,
+  "reviews": [],
+  "gallery": [
+    "gallery/01.webp",
+    "gallery/02.webp",
+    "gallery/03.webp",
+    "gallery/04.webp",
+    "gallery/05.webp"
+  ],
+  "url": "https://saaba-wedding-company-chirayinkeezh.vercel.app"
+}
