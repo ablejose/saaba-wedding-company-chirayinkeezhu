@@ -248,3 +248,21 @@ html {
     transform: translateX(120%);
   }
 }
+
+/* Saaba's own films, alongside the story each one tells. */
+.story-section{padding:88px 24px;background:#faf8f2;scroll-margin-top:90px}
+.story-section:nth-child(even){background:#fff}
+.story-layout{max-width:1040px;margin:auto;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,.82fr);gap:80px;align-items:center}
+.story-number{display:block;font-family:var(--font-fraunces),Georgia,serif;font-size:64px;line-height:1;color:#c9a35b55;margin-bottom:26px}
+.story-copy .eyebrow{font-size:10px}
+.story-copy h2{font-size:clamp(30px,3.6vw,48px);margin:20px 0 24px;line-height:1.16}
+.story-copy h2 em{color:#9e7a35;font-weight:400}
+.story-copy .body-copy{max-width:430px}
+.story-note{font-size:13px;line-height:1.8;color:#83796a;margin-top:20px}
+.story-link{display:inline-flex;gap:14px;margin-top:28px;font-size:13px;font-weight:600;color:#735a2d}
+.story-film-wrap{border-radius:150px 150px 16px 16px;overflow:hidden;background:#e8e1d7;box-shadow:0 22px 60px -35px #30241966}
+.story-film{display:block;width:100%;aspect-ratio:9/16;object-fit:cover}
+.story-reverse .story-copy{grid-column:2;grid-row:1}
+.story-reverse .story-media{grid-column:1;grid-row:1}
+.story-reverse .story-layout{grid-template-columns:minmax(0,.82fr) minmax(0,1fr)}
+@media(max-width:700px){.story-section{padding:52px 18px}.story-layout,.story-reverse .story-layout{grid-template-columns:minmax(0,1fr) minmax(0,.88fr);gap:18px}.story-reverse .story-copy{grid-column:1}.story-reverse .story-media{grid-column:2}.story-number{font-size:38px;margin-bottom:18px}.story-copy .eyebrow{font-size:8px;letter-spacing:.12em}.story-copy h2{font-size:clamp(23px,5.6vw,36px);margin:14px 0}.story-copy .body-copy{font-size:12px;line-height:1.8}.story-note{font-size:10px;margin-top:14px}.story-link{font-size:11px;margin-top:18px}.story-film-wrap{border-radius:85px 85px 12px 12px}}

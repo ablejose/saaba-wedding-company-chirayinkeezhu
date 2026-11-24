@@ -2,6 +2,7 @@ import Hero from "@/sections/Hero";
 import TrustBar from "@/sections/TrustBar";
 import QuickServices from "@/sections/QuickServices";
 import Services from "@/sections/Services";
+import VideoStories from "@/sections/VideoStories";
 import Gallery from "@/sections/Gallery";
 import Process from "@/sections/Process";
 import About from "@/sections/About";
@@ -43,7 +44,7 @@ export default function HomePage() {
       <QuickServices />
       {order.map((key) => {
         const Section = SECTION_BY_KEY[key];
-        return <Section key={key} />;
+        return <div key={key}><Section />{key === "services" && <VideoStories />}</div>;
       })}
       <Testimonials />
       <Menu />

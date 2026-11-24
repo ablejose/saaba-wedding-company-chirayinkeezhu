@@ -2,7 +2,7 @@
   "slug": "saaba-wedding-company-chirayinkeezhu",
   "name": "Saaba Wedding Company",
   "shortName": "Saaba",
-  "descriptor": "Event Management",
+  "descriptor": "Catering & Events",
   "address": "PRH2+QXG, Chirayinkeezhu, Keralam 695611",
   "area": "Chirayinkeezhu",
   "city": "Chirayinkeezhu",
@@ -29,5 +29,77 @@
     "gallery/04.webp",
     "gallery/05.webp"
   ],
-  "url": "https://saaba-wedding-company-chirayinkeezh.vercel.app"
+  "url": "https://saaba-wedding-company-chirayinkeezh.vercel.app",
+  "headline": "A warm welcome. A memorable celebration.",
+  "tagline": "Good food. Beautiful celebrations.",
+  "aboutBody": "Saaba Wedding Company brings catering and event arrangements together in Chirayinkeezhu. From colourful welcome drinks and generous buffets to floral stages and attentive service, we help shape the details around your occasion. Tell us about your date, venue and guests, and let’s plan your celebration.",
+  "media": {
+    "heroSlides": [
+      {
+        "src": "gallery/01.webp",
+        "alt": "Saaba floral wedding stage with a cream sofa and red carpet"
+      },
+      {
+        "src": "gallery/02.webp",
+        "alt": "Saaba wedding hall dressed in red with gold chairs and chandeliers"
+      }
+    ],
+    "heroPoster": "gallery/01.webp",
+    "about": [
+      {
+        "src": "video/decor.webp",
+        "alt": "Floral seaside ceremony setting with a green sofa"
+      },
+      {
+        "src": "video/food.webp",
+        "alt": "Fresh parotta and biriyani prepared for serving"
+      }
+    ],
+    "stories": [
+      {
+        "id": "welcome",
+        "eyebrow": "A refreshing welcome",
+        "title": "The first sip.",
+        "accent": "The warmest welcome.",
+        "body": "Colourful drinks, poured fresh as your guests arrive. A thoughtful start to the conversations and celebrations ahead.",
+        "note": "Plan welcome drinks with your menu.",
+        "src": "video/welcome.mp4",
+        "poster": "video/welcome.webp",
+        "alt": "Saaba staff pouring colourful welcome drinks into glasses"
+      },
+      {
+        "id": "food",
+        "eyebrow": "From our kitchen",
+        "title": "A generous feast.",
+        "accent": "Made to be shared.",
+        "body": "Fresh parotta, fragrant biriyani and a plate worth gathering around. We bring the food and the serving together for your celebration.",
+        "note": "Choose the dishes your guests will enjoy.",
+        "src": "video/food.mp4",
+        "poster": "video/food.webp",
+        "alt": "Parotta and biriyani being portioned at a Saaba catering counter"
+      },
+      {
+        "id": "service",
+        "eyebrow": "At your service",
+        "title": "Beautifully arranged.",
+        "accent": "Warmly served.",
+        "body": "A well-presented buffet and a team ready to welcome your guests. From the first helping to the last, the little details matter.",
+        "note": "Buffet arrangements and guest service.",
+        "src": "video/buffet.mp4",
+        "poster": "video/buffet.webp",
+        "alt": "Guests being served at Saaba gold buffet counters"
+      },
+      {
+        "id": "celebrations",
+        "eyebrow": "The setting for your day",
+        "title": "Your occasion.",
+        "accent": "A beautiful setting.",
+        "body": "Flowers, seating and the setting around you. From an intimate gathering to a wedding by the sea, let’s plan a look that feels right for your day.",
+        "note": "Explore our stages and event arrangements below.",
+        "src": "video/decor.mp4",
+        "poster": "video/decor.webp",
+        "alt": "White floral wedding canopy and green sofa overlooking the sea"
+      }
+    ]
+  }
 }

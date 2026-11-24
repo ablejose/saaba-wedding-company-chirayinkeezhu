@@ -8,7 +8,7 @@ import { copy, heroSlides, logoMark, site, waLink } from "@/config/site";
 import { t } from "@/lib/copy";
 
 /** A new slide every 2s. Each one slides in from the right, so the show always moves forward. */
-const HERO_INTERVAL_MS = 2000;
+const HERO_INTERVAL_MS = 6000;
 const SLIDE_MS = 1100;
 const SLIDE_EASE = "cubic-bezier(0.77, 0, 0.18, 1)";
 

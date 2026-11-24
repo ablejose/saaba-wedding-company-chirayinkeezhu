@@ -47,6 +47,10 @@ export interface BusinessInput {
 
   /** Their own photos, relative to /events/<slug>/ — e.g. "gallery/01.jpg". */
   gallery: string[];
+  headline?: string;
+  tagline?: string;
+  aboutBody?: string;
+  media?: Partial<Omit<EventConfig["media"], "base" | "gallery">>;
 
   /** Live site origin, no trailing slash. */
   url: string;
@@ -96,8 +100,8 @@ export function fromBusiness(b: BusinessInput): EventConfig {
       fullName: b.name,
       descriptor,
       kicker: descriptor,
-      tagline: "Weddings & events, catered with care.",
-      headline: "Unforgettable feasts. Flawless celebrations.",
+      tagline: b.tagline || "Weddings & events, catered with care.",
+      headline: b.headline || "Unforgettable feasts. Flawless celebrations.",
     },
     contact: { phone: b.phone, whatsapp: b.whatsapp, email: b.email || undefined },
     location: {
@@ -127,10 +131,11 @@ export function fromBusiness(b: BusinessInput): EventConfig {
       ogImage: STOCK.ogImage,
       brandDir: STOCK.brandDir,
       about: STOCK.about,
+      ...b.media,
       gallery: b.gallery.map((src, i) => ({ src, alt: `${b.name} — event photo ${i + 1}` })),
     },
     reviews: (b.reviews ?? []).map((r) => ({ ...r, source: "Google review" })),
     seo: { keywords: uniq([b.name, b.shortName, `${b.shortName || b.name} ${b.city}`]) },
-    overrides: { menu: neutralMenu, menuPresets: neutralPresets },
+    overrides: { aboutBody: b.aboutBody, menu: neutralMenu, menuPresets: neutralPresets },
   };
 }

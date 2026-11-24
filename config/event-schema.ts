@@ -191,6 +191,7 @@ export interface EventConfig {
     brandDir?: MediaPath;
     /** Crossfading pair (or more) in the About section. */
     about: GalleryEntry[];
+    stories?: { id: string; eyebrow: string; title: string; accent: string; body: string; note: string; src: MediaPath; poster: MediaPath; alt: string }[];
     /** "Our work" photos — their real events only. */
     gallery: GalleryEntry[];
   };
