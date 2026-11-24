@@ -266,3 +266,11 @@ html {
 .story-reverse .story-media{grid-column:1;grid-row:1}
 .story-reverse .story-layout{grid-template-columns:minmax(0,.82fr) minmax(0,1fr)}
 @media(max-width:700px){.story-section{padding:52px 18px}.story-layout,.story-reverse .story-layout{grid-template-columns:minmax(0,1fr) minmax(0,.88fr);gap:18px}.story-reverse .story-copy{grid-column:1}.story-reverse .story-media{grid-column:2}.story-number{font-size:38px;margin-bottom:18px}.story-copy .eyebrow{font-size:8px;letter-spacing:.12em}.story-copy h2{font-size:clamp(23px,5.6vw,36px);margin:14px 0}.story-copy .body-copy{font-size:12px;line-height:1.8}.story-note{font-size:10px;margin-top:14px}.story-link{font-size:11px;margin-top:18px}.story-film-wrap{border-radius:85px 85px 12px 12px}}
+
+.saaba-nav-logo{display:block;width:72px;height:72px;object-fit:contain;border-radius:4px;background:#000}
+.saaba-footer-logo{display:block;width:160px;height:160px;object-fit:contain;border-radius:6px;background:#000}
+.saaba-loader{position:fixed;inset:0;z-index:300;display:grid;place-items:center;background:#000;opacity:1;transition:opacity .35s ease}
+.saaba-loader img{display:block;width:clamp(180px,32vw,240px);height:auto;object-fit:contain}
+.saaba-loader-fading{opacity:0;pointer-events:none}
+@media(max-width:700px){.saaba-nav-logo{width:60px;height:60px}}
+@media(prefers-reduced-motion:reduce){.saaba-loader{transition:none}}

@@ -26,8 +26,7 @@
     "gallery/01.webp",
     "gallery/02.webp",
     "gallery/03.webp",
-    "gallery/04.webp",
-    "gallery/05.webp"
+    "gallery/04.webp"
   ],
   "url": "https://saaba-wedding-company-chirayinkeezh.vercel.app",
   "headline": "A warm welcome. A memorable celebration.",
@@ -49,10 +48,6 @@
       {
         "src": "video/decor.webp",
         "alt": "Floral seaside ceremony setting with a green sofa"
-      },
-      {
-        "src": "video/food.webp",
-        "alt": "Fresh parotta and biriyani prepared for serving"
       }
     ],
     "stories": [
@@ -100,6 +95,7 @@
         "poster": "video/decor.webp",
         "alt": "White floral wedding canopy and green sofa overlooking the sea"
       }
-    ]
+    ],
+    "logoMark": "brand/logo.png"
   }
 }

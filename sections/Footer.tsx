@@ -88,16 +88,7 @@ export default function Footer() {
         <div className="h-px w-full" style={{ background: "linear-gradient(90deg, transparent, rgba(196,137,46,0.45), transparent)" }} />
         <div className="mt-10 grid grid-cols-1 gap-8 md:grid-cols-3">
           <div>
-            <div className="flex items-center gap-3">
-              {logoMark && (
-                // eslint-disable-next-line @next/next/no-img-element
-                <img src={logoMark} alt="" aria-hidden className="h-10 w-10 object-contain" />
-              )}
-              <div>
-                <p className="font-display text-2xl leading-none">{site.name}</p>
-                <p className="mt-1 font-sans text-[0.62rem] uppercase tracking-[0.26em] text-saffron">{site.kicker}</p>
-              </div>
-            </div>
+            {logoMark ? <img src={logoMark} alt={site.fullName} width="160" height="160" className="saaba-footer-logo" loading="lazy"/> : <p className="font-display text-2xl">{site.name}</p>}
             <p className="mt-4 max-w-xs font-sans text-sm font-light leading-relaxed text-ivory/60">{site.tagline}</p>
           </div>
 

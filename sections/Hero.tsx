@@ -4,7 +4,7 @@ import { useEffect, useLayoutEffect, useRef, useState } from "react";
 import { Star } from "lucide-react";
 import { Button } from "@/components/ui/Button";
 import { WhatsAppIcon } from "@/components/ui/WhatsAppIcon";
-import { copy, heroSlides, logoMark, site, waLink } from "@/config/site";
+import { copy, heroSlides, site, waLink } from "@/config/site";
 import { t } from "@/lib/copy";
 
 /** A new slide every 2s. Each one slides in from the right, so the show always moves forward. */
@@ -126,10 +126,6 @@ export default function Hero() {
       />
 
       <div className="relative z-10 mx-auto flex h-full max-w-shell flex-col items-center justify-center px-6 pt-16 text-center">
-        {logoMark && (
-          // eslint-disable-next-line @next/next/no-img-element
-          <img src={logoMark} alt="" aria-hidden className="mb-5 h-14 w-14 object-contain md:h-16 md:w-16" />
-        )}
         <p className="eyebrow eyebrow-center" style={{ color: "rgba(255,255,255,0.85)" }}>
           {t(copy.hero.eyebrow)}
         </p>
